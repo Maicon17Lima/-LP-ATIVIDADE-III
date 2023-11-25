@@ -26,17 +26,14 @@ int main() {
                     printf("Nome do produto: ");
                     scanf("%s", &nome);
                     contador++;
-
-                    for (size_t j = 0; j < 9999; j++){
+                    
                     printf("Preco: ");
                     scanf("%f", &preco);
-                
-                    }
-                    for ( k = 0; k < 9999; k++) {
+            
                     printf("Quantidade: ");
                     scanf("%d", &quantidade);
                         
-                    }                  
+                        
                                         
                     }
                 }
@@ -50,8 +47,8 @@ int main() {
                     
                 }
                 
-               // total = preco . quantidade;
-                //printf("Total de vendas: %.2f\n", total);
+               
+                printf("Total de vendas: %.2f\n", total);
                 break;
             default:
                 printf("Opcao invalida.\n");
